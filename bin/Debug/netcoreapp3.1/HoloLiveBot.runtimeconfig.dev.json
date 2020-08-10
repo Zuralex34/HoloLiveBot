@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\lalan\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lalan\\.nuget\\packages"
+    ]
+  }
+}
