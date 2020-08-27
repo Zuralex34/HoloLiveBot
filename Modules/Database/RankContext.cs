@@ -7,6 +7,7 @@ namespace HoloLiveBot.Modules.Database
     {
         public DbSet<Player> Players { get; set; }
         public DbSet<Character> Characters { get; set; }
+        public DbSet<Server> Servers { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Filename=RankDatabase.db");
